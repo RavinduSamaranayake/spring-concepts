@@ -1,6 +1,7 @@
 package com.kushan.concepts.dependency_injection;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
 /**
@@ -11,6 +12,10 @@ import org.springframework.stereotype.Component;
 public class SamsungDrive implements HardDrive{
 
     private String brand;
+
+    public SamsungDrive(@Value("#{'kushan'}")String brand) {
+        this.brand = brand;
+    }
 
     public String getBrand() {
         return brand;

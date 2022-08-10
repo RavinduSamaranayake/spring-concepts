@@ -4,21 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f649fd3f-cddf-468a-b6e8-13b602a445e3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kushan/concepts/dependency_injection/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kushan/concepts/dependency_injection/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kushan/concepts/dependency_injection/Computer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kushan/concepts/dependency_injection/Desktop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kushan/concepts/dependency_injection/HardDrive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kushan/concepts/dependency_injection/Laptop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kushan/concepts/dependency_injection/SamsungDrive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kushan/concepts/dependency_injection/SonyDrive.java" afterDir="false" />
+    <list default="true" id="f649fd3f-cddf-468a-b6e8-13b602a445e3" name="Changes" comment="DEPENDENCY INJECTION TOUR">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kushan/concepts/dependency_injection/Laptop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kushan/concepts/dependency_injection/Laptop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kushan/concepts/dependency_injection/SamsungDrive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kushan/concepts/dependency_injection/SamsungDrive.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +73,14 @@
       <option name="presentableId" value="Default" />
       <updated>1660116423613</updated>
     </task>
+    <task id="LOCAL-00001" summary="DEPENDENCY INJECTION TOUR">
+      <created>1660128941870</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1660128941870</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -99,5 +96,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="DEPENDENCY INJECTION TOUR" />
+    <option name="LAST_COMMIT_MESSAGE" value="DEPENDENCY INJECTION TOUR" />
   </component>
 </project>

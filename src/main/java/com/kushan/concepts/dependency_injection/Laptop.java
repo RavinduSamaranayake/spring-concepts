@@ -10,8 +10,10 @@ import org.springframework.stereotype.Component;
  */
 @Component
 public class Laptop implements Computer{
+
     @Autowired
-    SamsungDrive hdd;
+    @Qualifier("samsungDrive")
+    HardDrive hdd;
     @Override
     public void printName() {
         System.out.println("Hi.. This is Laptop");
@@ -19,7 +21,7 @@ public class Laptop implements Computer{
 
     @Override
     public void process() {
-        hdd.setBrand("ABCD");
+       // hdd.setBrand("ABCD");
         System.out.println("Start Process......... : "+hdd);
         hdd.processDrive();
     }
