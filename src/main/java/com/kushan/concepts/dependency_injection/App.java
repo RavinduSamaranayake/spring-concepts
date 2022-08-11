@@ -17,9 +17,14 @@ public class App {
 
         //Dependency Injection without xml configurations.
         ApplicationContext factory = new AnnotationConfigApplicationContext(AppConfig.class);
-        Computer obj = factory.getBean(Laptop.class);
+        Computer obj = factory.getBean(Desktop.class);
         obj.printName();
         obj.process();
+
+        //Aspect Oriented Programming (AOP)....
+        TestAOP testAOP = factory.getBean(TestAOP.class);
+        testAOP.testIt();
+        testAOP.completeIt();
 
     }
 }

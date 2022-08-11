@@ -7,7 +7,6 @@ import org.springframework.stereotype.Component;
  * @author Ravindu
  * 8/10/2022
  */
-@Component
 public class SonyDrive implements HardDrive{
     @Override
     public void processDrive() {

@@ -4,10 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f649fd3f-cddf-468a-b6e8-13b602a445e3" name="Changes" comment="DEPENDENCY INJECTION TOUR">
+    <list default="true" id="f649fd3f-cddf-468a-b6e8-13b602a445e3" name="Changes" comment="Autowired Annotation with parameterized constructor">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kushan/concepts/dependency_injection/Helper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kushan/concepts/dependency_injection/TestAOP.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kushan/concepts/dependency_injection/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kushan/concepts/dependency_injection/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kushan/concepts/dependency_injection/Desktop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kushan/concepts/dependency_injection/Desktop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/kushan/concepts/dependency_injection/Laptop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kushan/concepts/dependency_injection/Laptop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/kushan/concepts/dependency_injection/SamsungDrive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kushan/concepts/dependency_injection/SamsungDrive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kushan/concepts/dependency_injection/SonyDrive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kushan/concepts/dependency_injection/SonyDrive.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +47,8 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Ravindu/Desktop/Career/Spring Playground/spring-concepts"
   }
 }]]></component>
   <component name="RunManager">
@@ -60,7 +67,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.com.kushan.concepts.dependency_injection.App" />
+        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
@@ -80,7 +87,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660128941870</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Autowired Annotation with parameterized constructor">
+      <created>1660130344621</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1660130344621</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -97,6 +111,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="DEPENDENCY INJECTION TOUR" />
-    <option name="LAST_COMMIT_MESSAGE" value="DEPENDENCY INJECTION TOUR" />
+    <MESSAGE value="Autowired Annotation with parameterized constructor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Autowired Annotation with parameterized constructor" />
   </component>
 </project>

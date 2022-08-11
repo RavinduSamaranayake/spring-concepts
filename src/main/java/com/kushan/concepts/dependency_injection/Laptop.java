@@ -12,7 +12,7 @@ import org.springframework.stereotype.Component;
 public class Laptop implements Computer{
 
     @Autowired
-    @Qualifier("samsungDrive")
+   // @Qualifier("samsungDrive")
     HardDrive hdd;
     @Override
     public void printName() {
